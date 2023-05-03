@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    font-family: 'Zen Old Mincho', serif;
+
+}
+body {
+    background-color: #fff8cf;
+}
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: #9bd8d4;
+    justify-content: space-between;
+    margin-left: 0px;
+    border-bottom: 0px;
+    align-items: center;
+    margin: 0;
+   
+}
+
+#listadoheader{
+    display: flex;
+    align-items: center;
+}
+
+#listadoheader li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50px
+    
+    
+
+}
+#listadoheader li:hover{
+    background-color: #a63030;
+    text-decoration: none;
+}
+main {
+    position: relative;
+    display: flex;
+    
+}
+
+.links{
+    display: flex;
+}
+.categorias {
+    flex-direction: column;
+    display: flex;
+    align-content: space-between;
+}
+#texto {
+    font-size: 25px;
+    position: absolute;
+    left: 150px;
+    top: 300px;
+}
+#titulo {
+    font-size: 70px;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+}
+.linhaAmarela {
+    height: 55px;
+    width: 450px;
+    background-color: #eaef5170;   
+    position: absolute;
+    top: 170px;
+    left: 300px;
+    border-radius: 10%;
+}
+.titulo {
+    font-size: 55px;
+    position: absolute;
+    top: 150px;
+    left: 305px;
+}
+#logodocorpo {
+    height: 220px;
+    position: absolute;
+    left: 1050px;
+    top: 215px;
+}
+#miolo {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+#linhaDoTitulo {
+    height: 15px;
+    width: 350px;
+    background-color: #62b29f;   
+    position: absolute;
+    left: 500px;
+    top: 10px;
+    margin-top: 55px;
+}

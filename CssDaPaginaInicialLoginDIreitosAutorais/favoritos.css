@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    box-sizing: border-box ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #FFF8CF;
+}
+
+header {
+    width: 100%;
+    height: 85px;
+    background-color: #9BD8D4;
+    display: flex;
+    justify-content: space-between; 
+    border-bottom: 5px solid #4e9f8c;
+}
+
+.logotipo {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.links{
+    justify-content: space-between; 
+}
+
+a {
+    text-decoration: none;
+}
+
+.listalinks li{
+    margin-inline-start: 15px;
+    list-style: none;
+    display: inline-block;
+    width: 170px;
+    text-transform: uppercase;
+    color: black;
+    justify-content: space-between;
+} 
+
+.listalinks li :hover {
+    background-color: rgb(198, 243, 247);
+
+    border-radius: 30px;
+
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: row;
+}
+
+.titulopg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.amado {
+    margin-top: -95px;
+    display: inline-flex;
+}
+
+.palavra1 {
+    font-family: 'Zen Old Mincho';
+    font-size: 25px;
+    position: absolute;
+    left: 550px;
+    top: 100px;
+    font-weight: bold
+      
+}
+
+#linhadotitulo {
+    height: 15px;
+    width: 375px;
+    background-color: #63B29F;   
+    position: absolute;
+    right: 440px;
+    top: 110px;
+}
+
+.palavra2 {
+    margin-top: 15px;
+    font-family: 'Quattrocento', serif;
+    font-size: 70px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+#logotitulo {
+    margin-left: 40px;
+    height: 90px;
+    width: 70px;
+}
+
+.categ {
+    justify-content:start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 15px;
+    align-self: self-start;
+
+}
+
+.divmeio {
+    width: 90%;
+
+}
+
+.meio{
+    margin-top: 45PX;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#linhadomeio {
+    height: 15px;
+    width: 85%;
+    background: rgba(99, 178, 159, 0.6);   
+    position: absolute;
+    top: 270px;
+}
+
+/*footer {
+    background-color: aqua;
+    width: 100%;
+    height: 50px;
+}
+    margin-top: 200px;
+*/ 

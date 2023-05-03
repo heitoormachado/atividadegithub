@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    font-family: 'Zen Old Mincho', serif;
+
+}
+body {
+    background-color: #fff8cf;
+}
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: #9bd8d4;
+    justify-content: space-between;
+    margin-left: 0px;
+    border-bottom: 0px;
+    align-items: center;
+    margin: 0;
+   
+}
+#pesquisados {
+    width: 800px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border-radius: 75px;
+    position: relative;
+    left: 250px;
+    margin-top: 30px;
+    font-size: x-large;
+    padding-left: 16px;
+
+}
+#listadoheader{
+    display: flex;
+    align-items: center;
+}
+
+#listadoheader li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50px
+    
+    
+
+}
+#listadoheader li:hover{
+    background-color: #dffcf8;
+    text-decoration: none;
+}
+main {
+    position: relative;
+    display: flex;
+    
+}
+.linhadomaisvistos {
+    border-left: thick solid #000;
+    height:100%;
+    
+    left: 50%;
+    top: 350%;
+    position: absolute;
+}
+#texto {
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 35px;
+    top: 60px;
+    font-size: 70px;
+    margin-top: 55px;
+    margin-left: -450px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.links{
+    display: flex;
+}
+.login {
+    border-radius: 50%;
+}
+.categorias {
+    flex-direction: column;
+    display: flex;
+  align-content: space-between;
+}
+.miolo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.MaisVistos {
+    font-family: 'Zen Old Mincho', serif;;
+    position: absolute;
+    left: 70px;
+    top: 210px;
+    font-size: 40px;
+
+}
+#LinhaDoMaisVistos {
+    height: 15px;
+    width: 1200px;
+    background-color: #62b29f;   
+    position: absolute;
+    left: 70px;
+    top: 240px;
+}
+.Sugestoes {
+    font-family: 'Zen Old Mincho', serif;;
+    position: absolute;
+    left: 70px;
+    top: 525px;
+    font-size: 40px;
+}
+#LinhaDoSugestao {
+    height: 15px;
+    width: 1200px;
+    background-color: #62b29fa4;   
+    position: absolute;
+    left: 70px;
+    top: 556px;
+}
+#LogoDoTitulo{
+    margin-top: 70px;
+    margin-left: 28px;
+
+}
+.LinhaDoAlexandria{
+    height: 15px;
+    width: 350px;
+    background-color: #62b29f;   
+    position: absolute;
+    left: 375px;
+    top: 100px;
+    margin-top: 55px;
+
+}

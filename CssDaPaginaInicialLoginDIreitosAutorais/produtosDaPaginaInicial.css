@@ -1,0 +1,130 @@
+
+.produtos1 {
+    width: 180px;
+    height: 130px;
+    flex-flow: row wrap;
+    display: inline-block;
+    position: absolute;
+    left: 75px;
+    top: 280px;
+    background-repeat: no-repeat;
+    border-radius: 25%;
+    background-color: #fff8cf;
+}
+.produtos2 {
+    width: 180px;
+    height: 130px;
+    flex-flow: row wrap;
+    display: inline-block;
+    position: absolute;
+    left: 275px;
+    top: 280px;
+    background-repeat: no-repeat;
+ 
+    
+}
+.produtos3 {
+    width: 180px;
+    height: 130px;
+    flex-flow: row wrap;
+    display: inline-block;
+    position: absolute;
+    left: 475px;
+    top: 280px;
+    background-repeat: no-repeat;
+}
+.produtos4 {
+    width: 180px;
+    height: 130px;
+    flex-flow: row wrap;
+    display: inline-block;
+    position: absolute;
+    left: 675px;
+    top: 280px;
+    background-repeat: no-repeat;
+}
+.produtos5 {
+    width: 180px;
+    height: 130px;
+    flex-flow: row wrap;
+    display: inline-block;
+    position: absolute;
+    left: 875px;
+    top: 280px;
+    background-repeat: no-repeat;
+}
+.produtos6 {
+    width: 180px;
+    height: 130px;
+    flex-flow: row wrap;
+    display: inline-block;
+    position: absolute;
+    left: 1075px;
+    top: 280px;
+    background-repeat: no-repeat;
+}
+.produtos12 {
+    width: 180px;
+    height: 130px;
+    flex-flow: row wrap;
+    display: inline-block;
+    position: absolute;
+    left: 1075px;
+    top: 600px;
+    background-repeat: no-repeat; 
+}
+.produtos8 {
+    width: 180px;
+    height: 130px;
+    flex-flow: row wrap;
+    display: inline-block;
+    position: absolute;
+    left: 275px;
+    top: 600px;
+    background-repeat: no-repeat;
+  
+}
+.produtos7 {
+    width: 180px;
+    height: 130px;
+    flex-flow: row wrap;
+    display: inline-block;
+    position: absolute;
+    left: 75px;
+    top: 600px;
+    background-repeat: no-repeat;
+    border-radius: 25%;
+    background-color: #fff8cf;
+}
+.produtos9 {
+    width: 180px;
+    height: 130px;
+    flex-flow: row wrap;
+    display: inline-block;
+    position: absolute;
+    left: 475px;
+    top: 600px;
+    background-repeat: no-repeat; 
+}
+    
+    .produtos10 {
+        width: 180px;
+        height: 130px;
+        flex-flow: row wrap;
+        display: inline-block;
+        position: absolute;
+        left: 675px;
+        top: 600px;
+        background-repeat: no-repeat;
+    }
+
+.produtos11 {
+    width: 180px;
+    height: 130px;
+    flex-flow: row wrap;
+    display: inline-block;
+    position: absolute;
+    left: 875px;
+    top: 600px;
+    background-repeat: no-repeat;
+}

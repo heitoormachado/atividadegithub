@@ -1,0 +1,91 @@
+
+body {
+    background-image: url(../ImgsDaPaginaInicialLoginDireitosAutorais/BackgroundLogin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: 'Zen Old Mincho', serif;
+}
+#linhaDoTitulo {
+    height: 15px;
+    width: 500px;
+    background-color: #62b29f;   
+    position: absolute;
+    left: 455px;
+    top: 70px;
+}
+   #titulo {
+    font-size: 70px;
+    position: absolute;
+    top: -55px;
+    left: 550px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+} 
+#Login {
+    position: absolute;
+    width: 736px;
+    height: 54px;
+    left: 345px;
+    top: 250px;
+    
+    font-family: 'Zen Old Mincho', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 41px;
+    letter-spacing: 0.01em;
+
+    background-color: #cef5b5;
+    border-radius: 30px;
+}
+#Senha {
+    position: absolute;
+    width: 736px;
+    height: 54px;
+    left: 345px;
+    top: 450px;
+    
+    font-family: 'Zen Old Mincho', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 41px;
+    letter-spacing: 0.01em;
+
+    background-color: #cef5b5;
+    border-radius: 30px;
+}
+#TextoEmail {
+    position: absolute;
+    left: 345px;
+    top: 140px;
+    font-size: 50px;
+    font-family: 'Zen Old Mincho', serif;
+}
+#TextoSenha{ 
+    position: absolute;
+    left: 345px;
+    top: 340px;
+    font-size: 50px;
+    font-family: 'Zen Old Mincho', serif;
+}
+#botaoEnviar {
+    position: absolute;
+    left: 630px;
+    top: 550px;
+    height: 90px;
+    width: 160px;
+    font-size: 35px;
+    background-color: #cef5b5;
+    border-radius: 30px;
+}
+#EsqueciSenha {
+    position: absolute;
+    font-size: 15px;
+    left: 900px;
+    top: 500px;
+
+}
+#EsqueciSenha:hover{
+    background-color: #cef5b5;
+}

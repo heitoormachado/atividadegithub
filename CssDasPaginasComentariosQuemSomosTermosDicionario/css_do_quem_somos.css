@@ -1,0 +1,98 @@
+html, body{margin:0; padding:0;}
+p{
+    margin: 0;
+}
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: #9BD8D4;
+    display:flex;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+#logotipo {
+    grid-column: 1;
+
+}
+
+.links {
+    display: grid;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    color: black;
+}
+
+li {
+    display:inline-block;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.usuario {
+    display: flex;
+    grid-column: 3;
+    justify-content: end;
+    text-emphasis-color: black;
+}
+
+#section {
+    height: 550px;
+    width: 100%;
+    background-color: #FFF8CF;
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    grid-template-rows: 16% 16% 16% 16% 16% 16%;
+}
+
+#alexandria {
+    display: grid;
+    grid-row: 1;
+    grid-column: 1/7;
+    margin-left: 30px;
+    display:flex;
+    justify-content: center;   
+}
+
+#titulo {
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/5;
+    font-size: 50px;
+    font-family: 'Taviraj', serif;
+    display:inline-block;
+    background-color: #FBF19B;
+    margin-top: 35px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#caixatexto {
+    display:grid;
+    grid-row: 3/4;
+    grid-column: 2/5;
+    font-size: 40px;
+    margin-top:25px ;
+    display:flex;
+    justify-content: center;
+    font-family: 'Taviraj', serif;
+}
+
+#logotipo2 {
+    display: grid;
+    grid-row: 2/6;
+    grid-column: 5/7;
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

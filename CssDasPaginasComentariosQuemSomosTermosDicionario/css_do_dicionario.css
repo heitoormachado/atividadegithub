@@ -1,0 +1,150 @@
+html, body{margin:0; padding:0;}
+p{
+    margin: 0;
+}
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: #9BD8D4;
+    display:flex;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+#logotipo {
+    grid-column: 1;
+
+}
+
+.links {
+    display: grid;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    color: black;
+}
+
+li {
+    display:inline-block;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.usuario {
+    display: flex;
+    grid-column: 3;
+    justify-content: end;
+    text-emphasis-color: black;
+}
+
+#section {
+    height: 650px;
+    width: 100%;
+    background-color: #FFF8CF;
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    grid-template-rows: 16% 16% 16% 16% 16% 16%;
+}
+
+#colunas {
+    grid-column: 1;
+    grid-row: 1/7;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 15px;
+}
+
+#alexandria {
+    display: grid;
+    grid-column: 3/5;
+    display:flex;
+    align-items: flex-end;
+    border-top: 250px;
+}
+
+#titulo {
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-left: 230px;
+    padding-top: 17px;
+    display: flex;
+    align-items: start;
+}
+
+#logotipo2 {
+    display: grid;
+    grid-row: 2;
+    grid-column: 4;
+    margin-left: 230px;
+}
+
+#busca {
+    display: grid;
+    grid-row: 3;
+    grid-column: 3/7;
+    margin: 25px;
+    margin-right: 40%;
+    margin-left: 35px;
+    border-radius: 50%;
+    color: #D9D9D9;
+}
+
+#item {
+    border-radius: 30px;
+    background-color: #D9D9D9;
+}
+
+#lupa {
+    display: grid;
+    grid-row: 3;
+    grid-column: 5;
+    margin: 27px;
+    margin-left: 11%;
+}
+
+#texto_titulo {
+    display: grid;
+    grid-row: 4;
+    grid-column: 3/6;
+    background-color: #6AB29F;
+    margin: 30px;
+    margin-left: 35%;
+    margin-right: 50%;
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bloco_de_texto {
+    display: grid;
+    grid-row: 5/7;
+    grid-column: 2/7;
+    background-color: #6AB29F;
+    margin-right: 20%;
+    margin-left: 12%;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#canto {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-right: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#margem {
+    margin: 5px;
+}
